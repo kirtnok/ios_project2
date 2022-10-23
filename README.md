@@ -1,1 +1,2 @@
-druhy projekt do iosu
+# ios_project2
+12/15
