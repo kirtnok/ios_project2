@@ -8,13 +8,11 @@ all: proj2
 
 proj2: proj2.o
 
-proj2.o: proj2.c proj2.h
-
-
+proj2.o: proj2.c
 
 zip:
-	zip proj2.zip *.c *.h Makefile
+	zip proj2.zip *.c Makefile
 
 clean:
-	rm -f *.o water *.out
+	rm -f *.o proj2 *.out
 
